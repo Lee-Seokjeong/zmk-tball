@@ -38,7 +38,7 @@
 
         trackball_pim447@a {
             compatible = "pimoroni,trackball_pim447";  // 드라이버와 일치
-            reg = <0x0a>;  // I2C 주소
+            reg = <0xa>;  // I2C 주소
             label = "TRACKBALL_PIM447";  // 트랙볼 레이블
             move-factor = <2>;  // 포인터 속도 증가 (기본값: 1)
             invert-move-x;  // X 축 반전
