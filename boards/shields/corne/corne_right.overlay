@@ -35,7 +35,7 @@
 
     trackball_pim447@a {
         compatible = "pimoroni,trackball_pim447";
-        reg = <0x0a>;
+        reg = <0xa>;
         label = "TRACKBALL_PIM447";
         move-factor = <2>;      // Increase pointer velocity (default: 1)
         invert-move-x;          // Invert pointer X axis (left is right, and vice versa)
