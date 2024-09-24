@@ -53,7 +53,7 @@
 
     trackball_pim447@a {
         compatible = "pimoroni,trackball_pim447";
-        reg = <0x0a>; /* I2C address */
+        reg = <0xa>; /* I2C address */
         label = "TRACKBALL_PIM447";
         move-factor = <2>;
         invert-move-x;
