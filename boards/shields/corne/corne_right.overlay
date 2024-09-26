@@ -28,11 +28,7 @@
 
 &pro_micro_i2c {
     status = "okay";
-    
-    // I2C 설정
-    scl-gpio = <&pro_micro 20>; // SCL 핀을 GPIO 20으로 설정
-    sda-gpio = <&pro_micro 17>; // SDA 핀을 GPIO 17으로 설정
-
+      
     trackball_pim447@a {
         compatible = "pimoroni,trackball_pim447";
         reg = <0xa>;
