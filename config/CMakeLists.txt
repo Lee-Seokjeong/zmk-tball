@@ -131,9 +131,9 @@ if (CONFIG_ZMK_STUDIO_RPC)
   add_subdirectory(src/studio)
 endif()
 
-target_sources(config PRIVATE include/zmk/trackball_pim447.h)
-target_sources(config PRIVATE include/dt-bindings/zmk/trackball_pim447.h)
-target_sources(config PRIVATE drivers/sensor/trackball_pim447/trackball_pim447.c)
+target_sources(config PRIVATE module/include/zmk/trackball_pim447.h)
+target_sources(config PRIVATE module/include/dt-bindings/zmk/trackball_pim447.h)
+target_sources(config PRIVATE module/drivers/sensor/trackball_pim447/trackball_pim447.c)
 target_sources(config PRIVATE src/mouse/trackball_pim447.c)
 target_sources(config PRIVATE src/behaviors/behavior_trackball_pim447.c)
 
