@@ -20,7 +20,7 @@ manifest:
   self:
     path: config
     
-    # - name: zmk-mouse
-    #   remote: cdc-mkb
-    #   revision: mouse-pim447
+    - name: zmk-mouse
+      remote: cdc-mkb
+      revision: cdc
     
