@@ -12,10 +12,14 @@ manifest:
     - name: zmk-tball
       remote: Lee-Seokjeong
       revision: master
-        
-    - name: zmk
+            
+    - name: zmk-trackball
       remote: cdc-mkb
       revision: cdc
-      import: app/west.yml
+            
+    - name: zmk
+      remote: zmkfirmware
+      revision: main
+      import: app/west.yml  
   self:
    path: config 
