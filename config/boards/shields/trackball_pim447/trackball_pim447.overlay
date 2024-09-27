@@ -1,8 +1,6 @@
 &pro_micro_i2c {
     status = "okay";  // I2C 버스 활성화
-    scl-gpio = <&pro_micro 20>;  // SCL 핀을 GPIO 20에 설정
-    sda-gpio = <&pro_micro 17>;  // SDA 핀을 GPIO 17에 설정
-
+    
     trackball_pim447@a {
         compatible = "pimoroni,trackball_pim447";  // 드라이버와 일치
         reg = <0x0a>;  // I2C 주소
