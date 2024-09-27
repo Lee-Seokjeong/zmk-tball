@@ -5,7 +5,6 @@
  */
 
 #include <drivers/sensor.h>
-#include <zmk/sensors.h>
 #include <logging/log.h>
 #include <zmk/hid.h>
 #include <zmk/endpoints.h>
