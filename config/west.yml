@@ -13,9 +13,9 @@ manifest:
       remote: Lee-Seokjeong
       revision: master
             
-    - name: zmk-trackball
-      remote: cdc-mkb
-      revision: cdc
+    # - name: zmk-trackball
+    #   remote: cdc-mkb
+    #   revision: cdc
             
     - name: zmk
       remote: zmkfirmware
