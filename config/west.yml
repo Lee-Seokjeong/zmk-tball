@@ -13,13 +13,13 @@ manifest:
       remote: Lee-Seokjeong
       revision: master
       
-    #- name: zmk-trackball
-    #  remote: cdc-mkb
-    #  revision: mouse-pim447
-    
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: cdc-mkb
+      revision: mouse-pim447
+    
+    # - name: zmk
+    #   remote: zmkfirmware
+    #   revision: main
       import: app/west.yml
   self:
     path: config
