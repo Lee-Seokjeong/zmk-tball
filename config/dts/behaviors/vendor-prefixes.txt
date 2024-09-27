@@ -1,2 +1,2 @@
 zmk	ZMK Project
-pimoroni  TRACKBALL_PIM447
+pimoroni TRACKBALL_PIM447
