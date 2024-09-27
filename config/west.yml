@@ -13,7 +13,7 @@ manifest:
       remote: Lee-Seokjeong
       revision: master
       
-    - name: cdc
+    - name: zmk_cdc
       remote: cdc-mkb
       revision: mouse-pim447
       
