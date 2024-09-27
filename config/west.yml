@@ -1,7 +1,7 @@
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+    - name: cdc-mkb
+      url-base: https://github.com/cdc-mkb
     - name: Lee-Seokjeong
       url-base: https://github.com/Lee-Seokjeong
     # Additional modules containing boards/shields/custom code can be listed here as well
@@ -12,8 +12,8 @@ manifest:
       revision: master
       
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: cdc-mkb
+      revision: mouse-pim447
       import: app/west.yml
   self:
     path: config
