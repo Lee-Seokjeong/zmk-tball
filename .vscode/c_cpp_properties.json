@@ -4,9 +4,7 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/zmk-config/config/drivers",
-                "${workspaceFolder}/zmk-config/config/src",
-                "${workspaceFolder}/zmk-config/config/include"
+                "${workspaceFolder}/zmk-tball/config"
             ],
             "defines": [],
             "compilerPath": "${env:ZEPHYR_SDK_INSTALL_DIR}/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc",
