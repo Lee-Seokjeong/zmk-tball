@@ -1,6 +1,7 @@
 /dts-v1/;  // Device Tree 버전 명시
 
 #include "nice_nano.dtsi"  // 필요한 .dtsi 파일 포함
+#include <dt-bindings/zmk/trackball_pim447.h>
 
 / {
     compatible = "nice,nano-v2";  // 보드 이름
