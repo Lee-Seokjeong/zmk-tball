@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 3.13.1)
 
 set(CONFIG_APPLICATION_DEFINED_SYSCALL true)
-
 list(APPEND BOARD_ROOT ${CMAKE_SOURCE_DIR})
 list(APPEND DTS_ROOT ${CMAKE_SOURCE_DIR})
 
@@ -56,7 +55,6 @@ if ((NOT CONFIG_ZMK_SPLIT) OR CONFIG_ZMK_SPLIT_BLE_ROLE_CENTRAL)
   target_sources(app PRIVATE src/behaviors/behavior_reset.c)
   target_sources(app PRIVATE src/behaviors/behavior_hold_tap.c)
   target_sources(app PRIVATE src/behaviors/behavior_sticky_key.c)
-  target_sources(app PRIVATE src/behaviors/behavior_macro.c)
   target_sources(app PRIVATE src/behaviors/behavior_momentary_layer.c)
   target_sources(app PRIVATE src/behaviors/behavior_mod_morph.c)
   target_sources(app PRIVATE src/behaviors/behavior_outputs.c)
@@ -71,7 +69,6 @@ if ((NOT CONFIG_ZMK_SPLIT) OR CONFIG_ZMK_SPLIT_BLE_ROLE_CENTRAL)
   target_sources(app PRIVATE src/behaviors/behavior_trackball_pim447.c)
   target_sources_ifdef(CONFIG_ZMK_EXT_POWER app PRIVATE src/behaviors/behavior_ext_power.c)
   target_sources(app PRIVATE src/combo.c)
-  target_sources(app PRIVATE src/conditional_layer.c)
   target_sources(app PRIVATE src/keymap.c)
 endif()
 target_sources_ifdef(CONFIG_ZMK_RGB_UNDERGLOW app PRIVATE src/behaviors/behavior_rgb_underglow.c)
