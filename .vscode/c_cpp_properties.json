@@ -4,7 +4,7 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/zmk-tball/config"
+                "${workspaceFolder}/zmk-tball/config/dts"
                 "${workspaceFolder}/zmk-config/config/drivers",
                 "${workspaceFolder}/zmk-config/config/src",
                 "${workspaceFolder}/zmk-config/config/include"
